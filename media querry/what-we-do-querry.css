@@ -1,0 +1,101 @@
+
+@media(max-width:1440px){
+    .section-2 .banking-mobile{
+        display: none !important;
+    }
+}
+@media(max-width:1405px){
+    .primary-logo{
+        border: 5px solid black;
+        right: 50px;
+        width: 9vw;
+        /* top: -15px; */
+    }
+    .primary-logo h5{
+        /* border: 5px solid green; */
+        width: 100%;
+    }
+}
+
+@media(max-width:1257px){
+    .header{
+        display: none !important;
+    }
+    .secondary-nav-2{
+        display: none;
+    }
+    .primary-desktop-nav{
+        display: block !important;
+    }
+    .primary-logo{
+        display: none;
+    }
+}
+
+@media(min-width:993px){
+    .secondary-nav-2{
+        display: block!important;
+    }
+    .primary-desktop-nav{
+        display: none !important;
+    }
+   
+
+   
+}
+@media(max-width:993px){
+    .primary-desktop-nav{
+        display: block !important;
+    }
+    .secondary-nav-2{
+        display: none!important;
+    }
+    .footer{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    
+    .primary-footer{
+        display: block !important;
+    }
+    .section-2 .banking{
+        display: none;
+       }
+    
+        .banking-mobile{
+        display: block !important;
+       }
+       .sidebar{
+        display: none;
+       }
+   
+}
+ 
+@media(min-width:767px){
+   .primary-footer{
+    display: none;
+   }
+   .banking-mobile{
+    display: none !important;
+   }
+   
+
+   
+}
+
+
+
+@media(max-width:767.98px){
+    .section-mobile-nav{
+        display: block !important;
+    }
+}
+
+
+@media(max-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
