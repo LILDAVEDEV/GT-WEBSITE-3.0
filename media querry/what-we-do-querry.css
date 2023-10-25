@@ -31,6 +31,18 @@
         display: none;
     }
 }
+@media(max-width:1204px){
+   .text{
+    /* border: 5px solid green; */
+    width: 40vw !important;
+   }
+   .text-wrapper{
+    /* border: 5px solid blue; */
+    width: 100%;
+    margin-left: 0;
+   }
+}
+
 
 @media(min-width:993px){
     .secondary-nav-2{
@@ -54,6 +66,49 @@
         display: none;
     }
 }
+@media(max-width:992px){
+    .country-img{
+        min-width: 7vw;
+     }
+     .country-img-2{
+      min-width:7vw;
+   }
+   .country-img-3{
+      min-width:7vw;
+   }
+   .country-img-4{
+      min-width: 7vw;
+   }
+   .country-img-5{
+      min-width: 7vw;
+   }
+   .country-img-6{
+      min-width: 7vw;
+   }
+   .country-img-7{
+      min-width: 7vw;
+   }
+   .country-img-8{
+      min-width: 7vw;
+   }
+   .country-img-9{
+      min-width: 7vw;
+   }
+   .country-img-10{
+      min-width: 7vw;
+   }
+   .country-img-11{
+
+      min-width: 7vw;
+   }
+}
+
+@media(max-width:981px){
+    .text{
+        width: 60% !important;
+    }
+}
+
 
 @media(max-width:768px){
     
@@ -70,7 +125,47 @@
        .sidebar{
         display: none;
        }
-   
+       .country-img{
+          min-width: 8.5vw;
+       }
+       .country-img-2{
+        min-width: 8.5vw;
+     }
+     .country-img-3{
+        min-width: 8.5vw;
+     }
+     .country-img-4{
+        min-width: 8.5vw;
+     }
+     .country-img-5{
+        min-width: 8.5vw;
+     }
+     .country-img-6{
+        min-width: 8.5vw;
+     }
+     .country-img-7{
+        min-width: 8.5vw;
+     }
+     .country-img-8{
+        min-width: 8.5vw;
+     }
+     .country-img-9{
+        min-width: 8.5vw;
+     }
+     .country-img-10{
+        min-width: 8.5vw;
+     }
+     .country-img-11{
+
+        min-width: 8.5vw;
+     }
+     .col-lg-6 .card-list{
+        min-width: 80vw;
+     }
+  .card-wrapper .card{
+    /* border: 5px solid yellow; */
+    width: 100%;
+  } 
 }
  
 @media(min-width:767px){
