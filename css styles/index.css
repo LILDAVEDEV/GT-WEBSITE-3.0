@@ -17,7 +17,7 @@ body{
     /* border: 5px solid red; */
     width: 35%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #DD4F05;
 }
 .nav-wrapper{
@@ -25,7 +25,7 @@ body{
     width: 100%;
     height: 100%;
     margin-left: 180px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .skew{
     /* border: 5px solid red; */
@@ -37,6 +37,25 @@ body{
     /* margin-top: 6.3px; */
     overflow: hidden;
 }
+.skew-content{
+    /* border: 5px solid green; */
+    width: 70%;
+    transform: skew(27deg);
+    height: 100% !important;
+    gap: 40px;
+    margin: auto;
+    align-items: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+ }
+ #dropdown ul li{
+    margin-left: 0 !important;
+    /* border: 5px solid red; */
+    padding: 0 !important;
+ }
+ 
+
 .nav-wrapper-flex{
     /* gap: 80px; */
     justify-content: space-between;
@@ -44,18 +63,47 @@ body{
 .nav-wrapper ul li{
     margin-left: 83px;
 }
+.nav-wrapper ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-wrapper ul{
+    align-items: center;
+}
+
+
 .nav-wrapper-li{
     margin-top: 10px;
     /* margin-left: 60px; */
     /* border: 5px solid blue; */
 }
+.geo-wrapper{
+    /* border: 5px solid red; */
+    gap: 25px;
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+.dropdown .btn{
+    /* border: 5px solid red ; */
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.dropdown .dropdown-menu{
+    margin-top: 7px !important;
+    /* border: 5px solid blue; */
+    z-index: 5000 !important;
+}
+
 
 /* end of header */
 .primary-logo{
     position: absolute;
-    margin-left: 1200px;
+    margin-left: 1100px;
     top:-60px;
     z-index: 500;
+    /* border: 5px solid red; */
+    width: 35%;
 
 }
 .primary-logo a{
@@ -610,6 +658,21 @@ body{
     /* max-height: 40vh; */
     
 }
+.carousel-indicators button{
+    /* border: 5px solid blue !important; */
+    border-radius: 50%;
+    height: 4vh !important;
+    width: 2vw !important;
+    background-color: #DD4F05 !important;
+    
+}
+.carousel-indicators{
+   top: 750px;
+   left: 1100px!important;
+   /* border: 5px solid red; */
+   width: 20%;
+   
+}
 
 .carousel-image{
     height: 100vh;
@@ -888,6 +951,55 @@ body{
 .card-body-6{
     border-radius: 4px;
 }
+.list-social{
+    /* border: 5px solid red; */
+}
+.list-social img{
+    /* border: 5px solid green; */
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+.footer-copyright{
+    align-items: center;
+}
+.img-social-border{
+    border-radius: 100%;
+    height: 6vh;
+    width: 3vw;
+    border: 5px solid #434A51;
+    overflow: hidden;
+}
+.section-footer-base{
+    background-color: #434A51 !important;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 1.8rem 0.3rem;
+}
+.copyright{
+    color: #E1E2E3;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: #E1E2E3;
+}
+.img-social-border-new{
+    /* border: 5px solid green; */
+    height: 7vh;
+    /* border: 1px solid #e0e1e2; */
+    border-radius: 100%;
+    overflow: hidden;
+    /* width: 2vw; */
+}
+.img-social-border-new img{
+    /* border: 5px solid red; */
+    height: 100%;
+    width: 100%;
+}
+.list-social{
+    justify-content: space-around;
+}
+
 
 
 
